@@ -36,34 +36,23 @@ function getGitHubProfileInfos(){
 getGitHubProfileInfos()
 
 
-/* 
-  then -> pegar respostas de algima coisa
-  promisse -> é uma promessa de pegar algo
-  o fetch vai na url, pegar o que responder e vvai guardar, e para pegar usa-se as promisses, se o fetch conseguiu guardar o conteúdo então ele entra no then
-*/
-/* 
-
-ARROW FUNCTION
-
-function nomeFuncao(argumentos){
-
+function changeVetorColorGradient1(){
+  vetor.src = 'images/vetor.png'
+  light1.style.opacity = '70%'
+  light2.style.opacity = '0%'
+  light3.style.opacity = '0%'
 }
 
-Arrow function é uma versão contraída de uma funçao: basicamente retira o 'function' e o nome da função, deixando apenas os argumentos
-
-* RECEBENDO UM VALOR
-argumento => {
-
+function changeVetorColorGradient2(){
+  vetor.src = 'images/vetor3.png'
+  light1.style.opacity = '0%'
+  light2.style.opacity = '70%'
+  light3.style.opacity = '0%'
 }
 
-* RECEBENDO MAIS DE UM VALOR
-(argumento, argumento2) => {
-
+function changeVetorColorGradient3(){
+  vetor.src = 'images/vetor2.png'
+  light1.style.opacity = '0%'
+  light2.style.opacity = '0%'
+  light3.style.opacity = '70%'
 }
-
-* RECEBENDO NENHUM VALOR
-() => {
-
-}
-
-*/  
