@@ -3,8 +3,7 @@ const linksSocialMedia = {
   github: "Ednaldo-byte",
   youtube: "Rocketseat",
   instagram: "ednaldo_cordeiro_",
-  twitter: "|_cordeiro_|",
-  facebook: "Ednado Cordeiro"
+  twitter: "ed_byte"
 }
 
 function changeSocialMediaLinks(){
