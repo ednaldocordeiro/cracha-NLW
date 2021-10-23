@@ -35,12 +35,13 @@ function getGitHubProfileInfos(){
 
 getGitHubProfileInfos()
 
-
+let color = document.getElementsByClassName("ribbon")
 function changeVetorColorGradient1(){
   vetor.src = 'images/vetor1.svg'
   light1.style.opacity = '70%'
   light2.style.opacity = '0%'
   light3.style.opacity = '0%'
+
 }
 
 function changeVetorColorGradient2(){
@@ -48,6 +49,7 @@ function changeVetorColorGradient2(){
   light1.style.opacity = '0%'
   light2.style.opacity = '70%'
   light3.style.opacity = '0%'
+
 }
 
 function changeVetorColorGradient3(){
@@ -55,4 +57,5 @@ function changeVetorColorGradient3(){
   light1.style.opacity = '0%'
   light2.style.opacity = '0%'
   light3.style.opacity = '70%'
+
 }
