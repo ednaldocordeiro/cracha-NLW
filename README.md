@@ -9,7 +9,10 @@
   - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
   - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
   - [JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-
+  - 
+  <div align="center">
+      <img src=".github/home.png" width="600px"/>
+  </div>
 
   ## 🖇 Executar o Projeto
 
