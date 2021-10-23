@@ -262,7 +262,7 @@ li img{
 }
 
 /* IPad */
-@media (min-width: 768px){
+/* @media (min-width: 768px){
   main{
     height: 812px;
   }
@@ -303,7 +303,7 @@ li img{
     font-size: 1.5rem;
   }
 
-}
+} */
 
 /* IPhone X */
 @media (min-width: 375px) and (max-width: 539px){
