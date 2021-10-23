@@ -14,11 +14,6 @@ html, body{
 }
 
 body{
-  /* display: grid;
-  place-items: center;
-  grid-template-rows: 25% 120% 25%; */
-
-  padding-top: 4rem;
   padding-bottom: 4rem;
 
   display: flex;
@@ -28,19 +23,20 @@ body{
   background-color: #09090A;
 }
 
-section #logoDoWhile{
-  width: 100%;
-  margin-bottom: 5rem;
-}
-
 main{
-  width: 375px;
+  width: 70vw;
   height: 812px;
   background-color: var(--black);
   border-radius: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #vetor{
+  width: 70vw;
+  /* width: 100%; */
   position: absolute;
   border-radius: 2rem;
 }
@@ -49,13 +45,16 @@ main{
   opacity: 100%;
 }
 
-.lights{
-  margin-left: 57.5px;
+.details{
+  display: flex;
+  justify-content: center;
+}
 
+.lights{
   position: absolute;
   background: linear-gradient(to right, #FF008E, #FFCD1E);
-  width: 260px;
-  height: 200px;
+  width: 40vw;
+  height: 40vw;
   opacity: 0%;
 }
 
@@ -105,6 +104,10 @@ main{
   color: var(--grey);
   -webkit-font-smoothing: antialiased;
   text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .avatar{
@@ -149,11 +152,9 @@ a{
 }
 
 p{
-  font-size: 1.4rem;
-  height: 4.8rem;
+  font-size: 1.3rem;
   text-align: center;
   margin-top: 3.2rem;
-
 }
 
 ul{
@@ -181,13 +182,14 @@ li{
 li:hover{
   background: linear-gradient(130deg, #FF008E, #FFCD1E);
 }
+li img{
+  width: 100%;
+}
 
 .itemsCustoms{
   margin-top: 3rem;
   width: 20rem;
   height: auto;
-
-  place-items: left;
 
   display: flex;
   flex-direction: row;
@@ -200,6 +202,7 @@ li:hover{
   margin: 1rem;
   clip-path: circle();
   background: #FF008E;
+  cursor: pointer;
 }
 
 .selectColor:nth-child(1){
@@ -214,37 +217,40 @@ li:hover{
   background: linear-gradient(90deg, #0500FF, #1EFF93);
 }
 
-.gridColumn1{
+.column1{
   color: white;
-  width: 40rem;
+  width: 80vw;
   text-align: left;
+  margin: 3rem;
 
   padding: 2rem;
   border-left: #FFCD1E 3px solid;
 }
 
-.gridColumn3{
+.column3{
   color: white;
   font-size: 3rem ;
   font-weight: 700;
   text-align: right;
-  width: 40rem;
+  width: 70vw;
+  margin: 3rem;
 
   padding: 2rem;
   border-right: #FFCD1E 3px solid;
 }
 
-
-section h1{
+.column1 h1, .column3 h1 {
   font-size: 4rem;
+  margin: 0;
 }
 
-section h2{
+.column1 h2{
   font-size: 2rem;
 }
 
-section p{
-  font-size: 1.2rem;
+  .column1 p{
+  font-size: 1.4rem;
+  text-align: left;
 }
 
 @keyframes lights{
@@ -257,3 +263,226 @@ section p{
   }
 }
 
+/* IPad */
+@media (min-width: 768px){
+  main{
+    height: 1012px;
+  }
+  .avatar{
+    margin: 28.4rem auto 0;
+    width: auto;
+  }
+  .person{
+    width: 20rem;
+    height: 22.4rem;
+  }
+  .container{
+    max-width: 35rem;
+  }
+  h1{
+    width: auto;
+    font-size: 3.4rem;
+  }
+  a{
+    font-size: 2rem;
+    align-items: center;
+  }
+  a img{
+    width: 2rem;
+  }
+  p{
+    font-size: 1.5rem;
+  }
+  li{
+    width: 6rem;
+    height: 6rem;
+  }
+  li img{
+    width: 100%;
+
+  }
+  .column1 p{
+    font-size: 1.5rem;
+  }
+
+}
+
+/* IPhone X */
+@media (min-width: 375px) and (max-width: 539px){
+  main{
+    height: 630px;
+  }
+  .avatar{
+    margin: 12.4rem auto 0;
+    width: auto;
+  }
+  .person{
+    width: 12rem;
+    height: 13.4rem;
+  }
+  .container{
+    max-width: 20rem;
+  }
+  h1{
+    width: auto;
+    font-size: 2rem;
+  }
+  a{
+    font-size: 1.4rem;
+    align-items: center;
+  }
+  a img{
+    width: 1.4rem;
+  }
+  p{
+    font-size: 1.2rem;
+  }
+  li{
+    width: 3rem;
+    height: 3rem;
+  }
+  .column1 p{
+    font-size: 1.2rem;
+  }
+
+}
+
+/* Desktop*/
+@media (min-width: 1024px){
+  html, body{
+    height: 100%;
+  }
+  body{
+    padding: 0;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  main{
+    width: 358px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+  }
+  #vetor{
+    width: 358px;
+    height: 150px;
+
+
+    object-fit: cover;
+    object-position: bottom;
+  }
+  .lights{
+    width: 15rem;
+    height: 10rem;
+  }
+  .avatar{
+    margin: 9.4rem auto 0;
+    width: auto;
+  }
+  .avatar span img{
+    width: 5rem;
+    top: 2rem;
+  }
+  .person{
+    width: 10rem;
+    height: 11.4rem;
+  }
+  .container{
+    max-width: 25rem;
+  }
+  h1{
+    width: auto;
+    font-size: 2rem;
+  }
+  a{
+    font-size: 1.3rem;
+    align-items: center;
+  }
+  a img{
+    width: 1.3rem;
+  }
+  p{
+    font-size: 1.2rem;
+  }
+  li{
+    width: 3rem;
+    height: 3rem;
+  }
+  .column1, .column3{
+    width: 30rem;
+  }
+  .column1 h1, .column3 h1{
+    font-size: 2rem;
+  }
+  .column1 h2{
+    font-size: 1.5rem;
+  }
+  .column1 p{
+    font-size: 1.2rem;
+  }
+  .itemsCustoms{
+    width: 15rem;
+  }
+  .selectColor{
+    width: 3rem;
+  }
+
+  .cord{
+    width: 8rem;
+    height: 10.6rem;
+
+    position: absolute;
+    top: 0rem;
+    z-index: 1;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ribbon{
+    width: 6.4rem;
+    height: 100%;
+    background: linear-gradient(to bottom, #FF008E, #FFCD1E);
+
+    position: absolute;
+    z-index: 1;
+  }
+  .hole{
+    width: 8rem;
+    height: .8rem;
+    background: #09090A;
+
+    position: relative;
+    top: 10.2rem;
+  }
+
+  .backlight{
+    position: absolute;
+    z-index: -1;
+
+    top: -65rem;
+
+    display: flex;
+  }
+
+  .yellowLight, .pinkLight{
+    width: 60rem;
+    height: 60rem;
+    /* clip-path: circle(); */
+
+    filter: blur(20rem);
+  }
+  .yellowLight{
+  background: #FFCD1E;
+
+  position: relative;
+  left: 20rem;
+  }
+  .pinkLight{
+    background: #FF008E;
+    position: relative;
+    left: -20rem;
+  }
+}

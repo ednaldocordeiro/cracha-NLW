@@ -37,21 +37,21 @@ getGitHubProfileInfos()
 
 
 function changeVetorColorGradient1(){
-  vetor.src = 'images/vetor.png'
+  vetor.src = 'images/vetor1.svg'
   light1.style.opacity = '70%'
   light2.style.opacity = '0%'
   light3.style.opacity = '0%'
 }
 
 function changeVetorColorGradient2(){
-  vetor.src = 'images/vetor3.png'
+  vetor.src = 'images/vetor3.svg'
   light1.style.opacity = '0%'
   light2.style.opacity = '70%'
   light3.style.opacity = '0%'
 }
 
 function changeVetorColorGradient3(){
-  vetor.src = 'images/vetor2.png'
+  vetor.src = 'images/vetor2.svg'
   light1.style.opacity = '0%'
   light2.style.opacity = '0%'
   light3.style.opacity = '70%'
