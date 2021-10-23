@@ -14,7 +14,7 @@
       <img src=".github/home.png" width="600px"/>
   </div>
 
-  ## 🖇 Executar o Projeto
+  ## 🖇 Run the project
 
   To access just use the Github Pages link:
   <br>
@@ -26,10 +26,10 @@
   ```
   git clone https://github.com/Ednaldo-byte/cracha-NLW.git
   ```
-  ##  📃 Licença
+  ##  📃 License
   This project has an MIT license. For more details see the file [LICENSE](LICENSE.md)
 
 
 
-  ## 📌 Observações
+  ## 📌 Comments
   Different versions of the website were applied: for desktop, tablet and mobile
