@@ -306,7 +306,7 @@ li img{
 } */
 
 /* IPhone X */
-@media (min-width: 375px) and (max-width: 539px){
+/* @media (min-width: 375px) and (max-width: 539px){
   main{
     width: 80vw;
     height: 630px;
@@ -351,7 +351,7 @@ li img{
     font-size: 1.2rem;
   }
 
-}
+} */
 
 /* Desktop*/
 @media (min-width: 1024px){
