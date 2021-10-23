@@ -3,10 +3,6 @@
   ## 🖥 Project
   Project developed for web development learning purposes.
   Virtual badge created during the NLW Heat, on the Origin track.
-  
-  <div align="center">
-      <img src=".github/home.png" width="600px"/>
-  </div>
 
   ## 👨‍💻 Technologies
   The technologies used in this project were:
@@ -33,4 +29,4 @@
 
 
   ## 📌 Observações
-  Currently the project is still being made for the mobile version.
+  Different versions of the website were applied: for desktop, tablet and mobile
