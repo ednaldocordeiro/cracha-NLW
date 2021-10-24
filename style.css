@@ -169,8 +169,8 @@ ul{
 
 li{
   background: #39393a;
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
 
   display: flex;
   align-items: center;
@@ -413,8 +413,11 @@ li img{
     font-size: 1.2rem;
   }
   li{
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
+  }
+  li img{
+    width: 1.8rem;
   }
   .column1, .column3{
     width: 30rem;
@@ -489,5 +492,191 @@ li img{
     background: #FF008E;
     position: relative;
     left: -20rem;
+  }
+}
+
+@media (min-height: 661px){
+  .cord{
+    height: 0;
+    width: 0;
+  }
+}
+
+@media (width: 360px) and (height: 640px){
+  main{
+    width: 80vw;
+    height: 650px;
+  }
+  #vetor{
+    width: 80vw;
+  }
+  .lights{
+    height: 15rem;
+    width: 20rem;
+  }
+  .person{
+    width: 12rem;
+    height: 13.4rem;
+  }
+  .avatar{
+    margin-top: 14.6rem;
+  }
+}
+
+@media (max-height: 640px){
+  .container{
+    max-width: 17rem;
+  }
+  h1{
+    width: auto;
+    font-size: 1.7rem;
+  }
+  a{
+    font-size: 1rem;
+    align-items: center;
+  }
+  a img{
+    width: 1.5rem;
+  }
+  p{
+    font-size: 1.2rem;
+  }
+  li{
+    width: 3rem;
+    height: 3rem;
+  }
+  li img{
+    width: 1.5rem;
+  }
+}
+
+@media (max-height: 645px){
+  .cord{
+    height: 16%;
+  }
+  .hole{
+    top: 96.2%;
+  }
+}
+
+@media (max-height: 545px){
+  main{
+    height: 80vh;
+    overflow: scroll;
+  }
+  #vetor{
+    height: 30vh;
+  }
+  .lights{
+    width: 15rem;
+    height: 15vh;
+  }
+  .avatar{
+    margin: 18vh auto 0;
+    width: auto;
+  }
+  .avatar span img{
+    width: 5rem;
+    top: 2rem;
+  }
+  .person{
+    width: 10rem;
+    height: 11.4rem;
+  }
+  .container{
+    max-width: 15vw;
+  }
+  h1{
+    width: auto;
+    font-size: 2vw;
+  }
+  a{
+    font-size: 1.3rem;
+    align-items: center;
+  }
+  a img{
+    width: 1.3rem;
+  }
+  p{
+    font-size: 0;
+    width: 0;
+    height: 0;
+  }
+  ul{
+    margin-top: 1rem;
+  }
+  li{
+    width: 4rem;
+    height: 4rem;
+  }
+  li img{
+    width: 1.8rem;
+  }
+  .column1 p{
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  .cord{
+    width: 0;
+    height: 0;
+  }
+}
+
+@media (max-height: 490px){
+  .avatar{
+    margin-top: 10vh;
+  }
+  .person{
+    width: 7rem;
+    height: 8.4rem;
+  }
+  #vetor{
+    height: 0;
+    width: 0;
+  }
+  .lights{
+    height: 0;
+    width: 0;
+  }
+  li{
+    width: 3rem;
+    height: 3rem;
+  }
+  li img{
+    width: 1.5rem;
+  }
+}
+
+@media (max-height: 390px){
+  main{
+    height: 30rem;
+  }
+  .avatar{
+    margin-top: 3rem;
+  }
+  .person{
+    width: 7rem;
+    height: 8.4rem;
+  }
+  #vetor{
+    height: 0;
+    width: 0;
+  }
+  .lights{
+    height: 0;
+    width: 0;
+  }
+  li{
+    width: 3rem;
+    height: 3rem;
+  }
+  li img{
+    width: 1.5rem;
+  }
+}
+
+@media (max-height: 290px){
+  html, body{
+    height: auto;
   }
 }

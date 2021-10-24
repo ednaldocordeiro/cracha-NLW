@@ -42,6 +42,8 @@ function changeVetorColorGradient1(){
   light2.style.opacity = '0%'
   light3.style.opacity = '0%'
 
+  ribbon.style.background = "linear-gradient(#FF008E, #FFCD1E)"
+
 }
 
 function changeVetorColorGradient2(){
@@ -50,6 +52,8 @@ function changeVetorColorGradient2(){
   light2.style.opacity = '70%'
   light3.style.opacity = '0%'
 
+  ribbon.style.background = "linear-gradient(#8000FF, #1ED7FF)"
+
 }
 
 function changeVetorColorGradient3(){
@@ -57,5 +61,7 @@ function changeVetorColorGradient3(){
   light1.style.opacity = '0%'
   light2.style.opacity = '0%'
   light3.style.opacity = '70%'
+
+  ribbon.style.background = "linear-gradient(#0500FF, #1EFF93)"
 
 }
