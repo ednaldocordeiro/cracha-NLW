@@ -35,4 +35,4 @@
   Responsiveness is not perfectly enforced, so consider only the device layouts above
   If there are errors, as soon as I identify them, I will check and correct them
   
- <a href=".githug/readme.md">🇧🇷 Portuguese</a>
+ <a href=".githug/portugues.md">🇧🇷 Portuguese</a>
