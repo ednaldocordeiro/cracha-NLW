@@ -562,7 +562,6 @@ li img{
 @media (max-height: 545px){
   main{
     height: 80vh;
-    overflow: scroll;
   }
   #vetor{
     height: 30vh;
