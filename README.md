@@ -17,7 +17,7 @@
 
   To access just use the Github Pages link:
   <br>
-  <a target="_blank" href="https://ednaldo-byte.github.io/cracha-NLW/"> Clique aqui </a>
+  <a target="_blank" href="https://ednaldo-byte.github.io/cracha-NLW/"> click here </a>
   <br>
   or
   <br>
